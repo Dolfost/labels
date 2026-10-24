@@ -1,0 +1,49 @@
+# Spice labels — one [[spice]] block per label. Only `name` is required.
+#
+#   name     = "Smoked paprika"           # big title (auto-shrinks / wraps to fit)
+#   subtitle = "Pimentón de la Vera"      # optional: local / latin / variety name
+#   contents = { coriander = 4, cumin = 2 }   # optional: blend ratio, in the order written
+#   source   = "La Vera, Spain"           # optional: origin or shop
+#   note     = "toast, then grind"        # optional: one short free-text line
+#   url      = "https://..."             # optional: QR code target (keep it SHORT)
+#   copies   = 2                          # optional: how many identical labels (default 1)
+#
+# Rebuild with ./build.sh — the PDF is labels.pdf.
+
+[[spice]]
+name = "Суміш перців"
+subtitle = "мелена"
+contents = { "перець чорний" = "49 %", "перець духмяний" = "15 %", "перець червоний" = "15 %", "паприка червона" = "10 %", "паприка зелена" = "9 %", "перець білий" = "2 %" }
+
+source = "АТБ · Своя Лінія"
+url = "https://www.atbmarket.com/product/priprava-30g-svoa-linia-sumis-perciv-melena"
+
+[[spice]]
+name = "Паприка"
+subtitle = "перець червоний мелений"
+source = "АТБ · Своя Лінія"
+url = "https://www.atbmarket.com/product/perec-30-g-svoa-linia-cervonij-melenij-paprika"
+
+[[spice]]
+name = "Базилік"
+subtitle = "сушений, подрібнений"
+source = "АТБ · Своя Лінія"
+url = "https://www.atbmarket.com/product/bazilik-15g-svoa-linia-susenij-podribnenij"
+
+[[spice]]
+name = "Перець чорний"
+subtitle = "мелений"
+source = "АТБ · Розумний Вибір"
+url = "https://www.atbmarket.com/product/perec-cornij-60g-rozumnij-vibir-melenij"
+
+[[spice]]
+name = "Коріандр"
+subtitle = "мелений"
+source = "АТБ · Своя Лінія"
+url = "https://www.atbmarket.com/product/koriandr-40g-svoa-linia-melenij"
+
+[[spice]]
+name = "Імбир"
+subtitle = "мелений"
+source = "АТБ · Своя Лінія"
+url = "https://www.atbmarket.com/product/imbir-40g-svoa-linia-melenij"
